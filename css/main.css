@@ -1,0 +1,174 @@
+/***** BASE STYLES *****/
+
+ body	{
+font-family: 'Source Sans Pro', sans-serif; 
+ }
+ #about, #work, #contact {
+    height: 600px;
+	}
+	
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width	{
+	width: 600px;
+	float: left;
+}	
+.third-width	{
+	width: 400px;
+	float: left;
+}
+/*****Header*****/
+ header {
+    height: 800px;
+    background-image: url('../img/grungebackground-JPEG.jpg');
+    background-size: cover;
+}
+header h1 { 
+    padding: 120px 0;
+	font-family: 'Lora', serif;
+	font-size: 35px;
+	color:#336600 ;
+}
+span	{
+	color: black;
+}
+nav {
+    float: right; 
+    padding: 145px 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: bold;
+    color: #336600;
+    padding-left: 80px;
+	
+}
+header h2 {
+    width: 100%;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    line-height: 120px;
+    color: #336600;
+    padding: 15px 0;
+	text-align: center;
+}
+header h2 span {
+    color: black;
+}
+
+
+
+/***** About Section *****/
+
+#about .full-width {
+    padding: 80px 0;
+	
+}
+#about h2 {
+    font-family: 'Lora', serif;
+	font-weight: bold;
+    font-size: 36px;
+}
+ 
+p {
+	
+    font-size: 21px;
+    color: #9a9b9b;
+    line-height: 42px;
+	padding-left: 80px;
+	
+}
+
+/*****Work*****/
+
+#work 	{
+	background-color: #f9ceb7;
+	text-align: center;
+}
+#work .full-width	{
+    padding: 100px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    width: 180px;
+    margin: 0 auto;
+}
+ 
+#work p {
+    font-family: 'lora', serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #070707;
+    padding: 0 35px;
+}
+#work h1	{
+	text-align: center;
+	padding-bottom: 40px;
+}
+/*****Contact*****/
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul, #contact p {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact{
+	background-color: #ebebeb;
+	}
+#contact .full-width {
+    padding: 110px 0;
+}
+	
+#contact img#contact-img {
+    border-style: solid;
+	border-width: 15px;
+	border-color: white;
+}	
+#contact h2 {
+    font-family: 'lora', serif;
+    font-size: 38px;
+}
+#contact #email-header {
+    font-size: 28px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+#contact p	{
+	font-family: 'lora', serif;
+	font-size: 14px;
+}
